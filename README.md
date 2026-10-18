@@ -4,6 +4,8 @@ Presentación web de la propuesta de padrinazgo del Niño Dios para la **Parroqu
 
 Es un sitio estático con una presentación (deck) de 4 diapositivas navegable con teclado, botones y gestos táctiles.
 
+🔗 **En línea:** <https://padrinazgo-nino-dios.vercel.app/>
+
 ## Características
 
 - 4 diapositivas: Portada, Motivación, Propuesta y Agradecimiento.
@@ -40,9 +42,9 @@ Luego abre <http://localhost:8000>.
 
 ## Despliegue
 
-Pensado para desplegarse en **Vercel** como sitio estático (sin build). Al desplegar, la URL de producción suele ser `https://padrinazgo-nino-dios.vercel.app`.
+Pensado para desplegarse en **Vercel** como sitio estático (sin build). La URL de producción es <https://padrinazgo-nino-dios.vercel.app/>.
 
-> **Importante:** los meta tags (`og:url`, `og:image`, `canonical`, `twitter:image`) apuntan a esa URL. Si Vercel asigna un dominio distinto, hay que actualizar esas referencias en `index.html`.
+> Los meta tags (`og:url`, `og:image`, `canonical`, `twitter:image`) apuntan a esa URL. Si en el futuro se configura un dominio propio, hay que actualizar esas referencias en `index.html`.
 
 ### Regenerar la imagen de preview
 
