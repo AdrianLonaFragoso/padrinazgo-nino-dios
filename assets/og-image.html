@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8" />
+<title>OG image — Padrinazgo del Niño Dios</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 1200px 630px; margin: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #f7f2e8;
+    background:
+      radial-gradient(circle at 10% 14%, rgba(179,148,105,.22), transparent 42%),
+      radial-gradient(circle at 92% 88%, rgba(123,151,142,.18), transparent 46%),
+      #172632;
+  }
+  .frame {
+    position: relative;
+    width: 1200px; height: 630px;
+    padding: 64px 78px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+    align-items: center;
+    gap: 40px;
+  }
+  .frame::after {
+    content: '';
+    position: absolute;
+    inset: 22px;
+    border: 1px solid rgba(212,180,128,.28);
+    pointer-events: none;
+  }
+  .corner::before, .corner::after {
+    content: '';
+    position: absolute;
+    width: 66px; height: 66px;
+    border-color: rgba(196,162,112,.6);
+  }
+  .corner::before { top: 22px; left: 22px; border-top: 2px solid; border-left: 2px solid; }
+  .corner::after { right: 22px; bottom: 22px; border-right: 2px solid; border-bottom: 2px solid; }
+
+  .copy { position: relative; z-index: 1; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 14px;
+    color: #d8b878; text-transform: uppercase;
+    letter-spacing: .24em; font-size: 16px; font-weight: 700;
+  }
+  .eyebrow::before { content: ''; width: 34px; height: 2px; background: #c4a270; }
+  h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 1.06;
+    letter-spacing: -.03em;
+    margin-top: 26px;
+    color: #f9f4ea;
+  }
+  h1 span { color: #d3b079; font-style: italic; }
+  .stroke { width: 84px; height: 3px; background: #aa834f; margin: 30px 0 26px; }
+  .lead { max-width: 520px; color: #c7cfce; font-size: 23px; line-height: 1.55; }
+  .parish {
+    display: flex; align-items: center; gap: 14px;
+    margin-top: 34px; padding-top: 22px;
+    border-top: 1px solid rgba(255,255,255,.16);
+    color: #e3dccd; font-size: 18px; letter-spacing: .04em;
+  }
+  .parish svg { width: 24px; height: 24px; color: #c4a270; }
+
+  .art { display: flex; align-items: center; justify-content: center; }
+  .nativity { height: 500px; width: auto; filter: drop-shadow(0 22px 30px rgba(0,0,0,.35)); }
+</style>
+</head>
+<body>
+  <div class="frame corner">
+    <div class="copy">
+      <div class="eyebrow">Navidad 2026</div>
+      <h1>Propuesta de<br><span>Padrinazgo</span><br>del Niño Dios</h1>
+      <div class="stroke"></div>
+      <p class="lead">Una iniciativa de fe, gratitud y servicio a nuestra comunidad.</p>
+      <div class="parish">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M5 8h14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <span>Parroquia Virgen de la Anunciación</span>
+      </div>
+    </div>
+    <div class="art">
+      <svg class="nativity" viewBox="0 0 450 570" role="img" aria-label="Ilustración artística del nacimiento de Jesús">
+        <defs>
+          <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#243c49"/><stop offset="1" stop-color="#587074"/></linearGradient>
+          <linearGradient id="outer" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#d9c6a5"/><stop offset="1" stop-color="#ba9d6c"/></linearGradient>
+          <clipPath id="window"><path d="M74 532V211C74 115 151 45 225 22c74 23 151 93 151 189v321Z"/></clipPath>
+        </defs>
+        <path d="M58 550V206C58 100 149 28 225 7c76 21 167 93 167 199v344Z" fill="url(#outer)"/>
+        <path d="M74 532V211C74 115 151 45 225 22c74 23 151 93 151 189v321Z" fill="url(#sky)"/>
+        <g clip-path="url(#window)">
+          <path d="M90 435c71-34 140-39 211-19 38 11 71 29 95 47v98H60v-96c10-8 20-19 30-30Z" fill="#809187" opacity=".3"/>
+          <path d="M55 505c82-28 143-22 206-12 55 9 91 5 150-17v92H55Z" fill="#30434b"/>
+          <g stroke="#e2c690" stroke-linecap="round">
+            <path d="M222 108V65M222 108l-16-25M222 108l16-25M222 108l-28 3M222 108l28 3" stroke-width="2"/>
+            <path d="m222 80 8 20-8 22-8-22Z" fill="#f2d5a0" stroke="none"/>
+            <circle cx="140" cy="175" r="2" fill="#e7cb93" stroke="none"/><circle cx="314" cy="157" r="2" fill="#e7cb93" stroke="none"/>
+            <circle cx="115" cy="280" r="1.6" fill="#e7cb93" stroke="none"/><circle cx="337" cy="292" r="1.6" fill="#e7cb93" stroke="none"/>
+            <circle cx="180" cy="234" r="1.6" fill="#e7cb93" stroke="none"/><circle cx="270" cy="241" r="1.2" fill="#e7cb93" stroke="none"/>
+          </g>
+          <path d="M127 444c-4-55 0-99 12-130 7-20 28-32 46-25 21 8 23 25 27 50l17 135Z" fill="#b7ab93"/>
+          <path d="M108 463c7-72 23-126 64-148 20 10 36 26 46 53 10 26 14 60 16 94Z" fill="#e4d7b8"/>
+          <path d="M166 273c23 0 43 23 40 52-2 25-14 46-36 48-24-3-38-26-37-48 0-28 10-52 33-52Z" fill="#d0b288"/>
+          <path d="M137 316c-11-31 3-62 29-66 31 3 48 32 41 64-7-14-14-22-29-28-14 8-25 19-41 30Z" fill="#f0e7d4"/>
+          <ellipse cx="167" cy="321" rx="20" ry="25" fill="#e2c19a"/>
+          <path d="M125 412c19-28 39-38 58-34 13 4 28 15 43 35l-9 59H116Z" fill="#b0b9ad"/>
+          <path d="M296 449c6-65 1-103-9-136-6-23-18-34-36-32-21 4-30 24-33 49l-17 143Z" fill="#d0c0a4"/>
+          <path d="M247 252c-29 2-39 29-34 57 8 17 20 24 39 27 21-8 28-24 28-44 0-24-13-40-33-40Z" fill="#ead8bb"/>
+          <ellipse cx="248" cy="296" rx="20" ry="28" fill="#d6b68d"/>
+          <path d="M217 291c-5-29 9-45 27-46 25 0 41 26 32 50-14-15-33-23-59-4Z" fill="#7f8276"/>
+          <path d="M222 336c22-14 41-13 57 3 17 26 21 65 25 118h-115c0-66 9-104 33-121Z" fill="#788f89"/>
+          <path d="M307 270v189" stroke="#c8b48a" stroke-width="6" stroke-linecap="round"/>
+          <path d="M307 278c-10-12-19-11-27-1" fill="none" stroke="#c8b48a" stroke-width="5"/>
+          <ellipse cx="220" cy="441" rx="70" ry="28" fill="#c49b67"/>
+          <path d="M158 431c28-20 94-22 125 0l-13 40c-29 18-78 18-103 0Z" fill="#ab8558"/>
+          <path d="M159 431c39 14 85 14 124 0" stroke="#e8d5b2" stroke-width="3" fill="none"/>
+          <path d="M168 449c33 12 68 12 102 0" stroke="#d8b98d" stroke-width="3" fill="none"/>
+          <path d="M178 415c12-24 65-34 85-7l-2 29c-22 16-66 17-87-1Z" fill="#efe4ce"/>
+          <ellipse cx="218" cy="407" rx="19" ry="16" fill="#e2bd8f"/>
+          <path d="M199 407c4-17 29-19 37-4-12-2-23-1-37 4Z" fill="#b9956b"/>
+          <path d="M177 435c23-4 54-4 83 0" stroke="#d6be99" stroke-width="4" fill="none"/>
+        </g>
+        <path d="M74 532V211C74 115 151 45 225 22c74 23 151 93 151 189v321Z" fill="none" stroke="#ebdbbb" stroke-width="2"/>
+        <path d="M40 550h370" stroke="#bda477" stroke-width="5" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </div>
+</body>
+</html>
